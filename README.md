@@ -37,3 +37,7 @@ Rodar de novo sempre antes de pedir uma avaliação de upgrade/downgrade ou defi
 ## Uso pretendido
 
 Com o inventário atualizado, é possível pedir uma avaliação (upgrades/downgrades disponíveis, CVEs conhecidas, o que entraria numa janela de manutenção) tendo o documento como contexto. Preparação de terreno para integrar futuramente uma ferramenta de SCA real (ex. Dependabot) e, mais adiante, DAST.
+
+## Log de revisão de vulnerabilidades
+
+`reports/vulnerability-log.md` — diferente do inventário, é **mantido à mão**, um bloco por janela semanal de revisão dos alertas do Dependabot: o que foi encontrado, como foi classificado por risco, o que foi mesclado e o que ficou para a próxima janela. O processo (fluxograma, camadas de risco, válvula de escape para `critical`) está documentado em [`docs/security.md`](https://github.com/domcabral9/morpheus-beta/blob/main/docs/security.md), no repositório `morpheus-beta`.
