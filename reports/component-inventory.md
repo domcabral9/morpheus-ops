@@ -6,7 +6,7 @@
 > lista versões exatas em uso, o que facilita a busca por CVEs conhecidas — usar como
 > insumo de decisão, não como segredo.
 
-Gerado em: 2026-07-26T16:41:00.515Z
+Gerado em: 2026-07-26T18:36:14.798Z
 
 ## Plataforma/runtime
 
@@ -33,7 +33,7 @@ Gerado em: 2026-07-26T16:41:00.515Z
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|
-| `turbo` | 2.10.5 | dev |
+| `turbo` | 2.10.6 | dev |
 | `typescript` | 5.9.3 | dev |
 
 ## Dependências — `@morpheus/api`
@@ -56,14 +56,14 @@ Gerado em: 2026-07-26T16:41:00.515Z
 | `@nestjs/throttler` | 6.5.0 | prod |
 | `@node-saml/passport-saml` | 5.1.0 | prod |
 | `@opentelemetry/api` | 1.9.1 | prod |
-| `@opentelemetry/auto-instrumentations-node` | 0.78.0 | prod |
-| `@opentelemetry/exporter-trace-otlp-http` | 0.220.0 | prod |
-| `@opentelemetry/resources` | 2.9.0 | prod |
-| `@opentelemetry/sdk-node` | 0.220.0 | prod |
-| `@opentelemetry/sdk-trace-base` | 2.9.0 | prod |
-| `@opentelemetry/sdk-trace-node` | 2.9.0 | prod |
+| `@opentelemetry/auto-instrumentations-node` | 0.79.0 | prod |
+| `@opentelemetry/exporter-trace-otlp-http` | 0.221.0 | prod |
+| `@opentelemetry/resources` | 2.10.0 | prod |
+| `@opentelemetry/sdk-node` | 0.221.0 | prod |
+| `@opentelemetry/sdk-trace-base` | 2.10.0 | prod |
+| `@opentelemetry/sdk-trace-node` | 2.10.0 | prod |
 | `@opentelemetry/semantic-conventions` | 1.43.0 | prod |
-| `@prisma/adapter-pg` | 7.8.0 | prod |
+| `@prisma/adapter-pg` | 7.9.0 | prod |
 | `@types/bcrypt` | 6.0.0 | dev |
 | `@types/cookie-parser` | 1.4.10 | dev |
 | `@types/express` | 5.0.6 | dev |
@@ -97,19 +97,19 @@ Gerado em: 2026-07-26T16:41:00.515Z
 | `pg` | 8.22.0 | prod |
 | `pino-http` | 11.0.0 | prod |
 | `pino-pretty` | 13.1.3 | dev |
-| `prettier` | 3.9.5 | dev |
+| `prettier` | 3.9.6 | dev |
 | `prom-client` | 15.1.3 | prod |
 | `qrcode` | 1.5.4 | prod |
 | `reflect-metadata` | 0.2.2 | prod |
 | `rxjs` | 7.8.2 | prod |
 | `source-map-support` | 0.5.21 | dev |
 | `supertest` | 7.2.2 | dev |
-| `ts-jest` | 29.4.11 | dev |
+| `ts-jest` | 29.4.12 | dev |
 | `ts-loader` | 9.6.2 | dev |
 | `ts-node` | 10.9.2 | dev |
 | `tsconfig-paths` | 4.2.0 | dev |
 | `typescript` | 5.9.3 | dev |
-| `typescript-eslint` | 8.64.0 | dev |
+| `typescript-eslint` | 8.65.0 | dev |
 | `zod` | 3.25.76 | prod |
 
 ## Dependências — `@morpheus/web`
@@ -118,15 +118,15 @@ Gerado em: 2026-07-26T16:41:00.515Z
 |---|---|---|
 | `@hookform/resolvers` | 5.4.0 | prod |
 | `@playwright/test` | 1.61.1 | dev |
-| `@radix-ui/react-alert-dialog` | 1.1.20 | prod |
-| `@radix-ui/react-checkbox` | 1.3.8 | prod |
-| `@radix-ui/react-dialog` | 1.1.20 | prod |
-| `@radix-ui/react-dropdown-menu` | 2.1.21 | prod |
-| `@radix-ui/react-radio-group` | 1.4.4 | prod |
-| `@radix-ui/react-select` | 2.3.4 | prod |
-| `@radix-ui/react-separator` | 1.1.12 | prod |
-| `@radix-ui/react-slot` | 1.3.0 | prod |
-| `@radix-ui/react-tabs` | 1.1.17 | prod |
+| `@radix-ui/react-alert-dialog` | 1.1.22 | prod |
+| `@radix-ui/react-checkbox` | 1.3.10 | prod |
+| `@radix-ui/react-dialog` | 1.1.22 | prod |
+| `@radix-ui/react-dropdown-menu` | 2.1.23 | prod |
+| `@radix-ui/react-radio-group` | 1.4.6 | prod |
+| `@radix-ui/react-select` | 2.3.6 | prod |
+| `@radix-ui/react-separator` | 1.1.14 | prod |
+| `@radix-ui/react-slot` | 1.3.2 | prod |
+| `@radix-ui/react-tabs` | 1.1.20 | prod |
 | `@tailwindcss/postcss` | 4.3.3 | dev |
 | `@types/node` | 20.19.43 | dev |
 | `@types/react` | 19.2.17 | dev |
@@ -135,15 +135,15 @@ Gerado em: 2026-07-26T16:41:00.515Z
 | `clsx` | 2.1.1 | prod |
 | `cmdk` | 1.1.1 | prod |
 | `eslint` | 9.39.5 | dev |
-| `eslint-config-next` | 16.2.10 | dev |
-| `lucide-react` | 1.25.0 | prod |
-| `next` | 16.2.10 | prod |
-| `next-intl` | 4.13.2 | prod |
-| `radix-ui` | 1.6.4 | prod |
-| `react` | 19.2.4 | prod |
-| `react-dom` | 19.2.4 | prod |
+| `eslint-config-next` | 16.2.11 | dev |
+| `lucide-react` | 1.26.0 | prod |
+| `next` | 16.2.11 | prod |
+| `next-intl` | 4.13.4 | prod |
+| `radix-ui` | 1.6.6 | prod |
+| `react` | 19.2.8 | prod |
+| `react-dom` | 19.2.8 | prod |
 | `react-hook-form` | 7.82.0 | prod |
-| `recharts` | 3.9.2 | prod |
+| `recharts` | 3.10.0 | prod |
 | `sonner` | 2.0.7 | prod |
 | `tailwind-merge` | 3.6.0 | prod |
 | `tailwindcss` | 4.3.3 | dev |
@@ -159,12 +159,12 @@ _Nenhuma dependência externa._
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|
-| `@prisma/adapter-pg` | 7.8.0 | prod |
-| `@prisma/client` | 7.8.0 | prod |
-| `@prisma/client-runtime-utils` | 7.8.0 | prod |
+| `@prisma/adapter-pg` | 7.9.0 | prod |
+| `@prisma/client` | 7.9.0 | prod |
+| `@prisma/client-runtime-utils` | 7.9.0 | prod |
 | `@types/bcrypt` | 6.0.0 | dev |
 | `bcrypt` | 6.0.0 | prod |
 | `dotenv` | 17.4.2 | dev |
-| `prisma` | 7.8.0 | dev |
+| `prisma` | 7.9.0 | dev |
 | `tsx` | 4.23.1 | dev |
 | `typescript` | 5.9.3 | dev |
