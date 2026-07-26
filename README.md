@@ -1,10 +1,15 @@
 # morpheus-ops
 
-Repositório privado para documentação operacional/segurança do [morpheus-beta](https://github.com/domcabral9/morpheus-beta) que não deve viver num repositório público — principalmente o inventário completo de componentes/versões usados para operar o sistema.
+Repositório de documentação operacional/segurança do [morpheus-beta](https://github.com/domcabral9/morpheus-beta) — principalmente o inventário completo de componentes/versões usados para operar o sistema.
 
 ## Por quê um repo separado
 
-`morpheus-beta` é público. Um mapeamento detalhado de versões exatas de cada dependência, imagem Docker e serviço de infraestrutura é, na prática, um roteiro pronto para quem procura CVEs conhecidas — não deve ser commitado lá.
+Um mapeamento detalhado de versões exatas de cada dependência, imagem Docker e serviço de infraestrutura não tem relação direta com o código/produto do `morpheus-beta` — mantê-lo num repo à parte facilita achar e manter esse tipo de documentação sem misturar com o desenvolvimento da aplicação.
+
+> **Nota:** este repositório é público. O inventário abaixo lista versões exatas de cada
+> dependência/imagem em uso, o que facilita a busca por CVEs conhecidas contra o stack — tenha
+> isso em mente antes de usá-lo como fonte para decisões de segurança sem cruzar com o estado
+> real (versões mudam a cada `pnpm install`/deploy).
 
 ## Inventário de componentes
 

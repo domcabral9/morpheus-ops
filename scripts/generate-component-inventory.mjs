@@ -116,11 +116,11 @@ function renderMarkdown({ workspaces, dockerImages, composeServices, platform, g
   const lines = [];
   lines.push("# Inventário de componentes — Morpheus");
   lines.push("");
-  lines.push("> Documento restrito. Gerado automaticamente a partir do checkout real de");
-  lines.push("> `morpheus-beta` — não editar à mão, rodar `generate-component-inventory.mjs`");
-  lines.push("> de novo sempre que precisar reavaliar (upgrade/downgrade, janela de");
-  lines.push("> manutenção, checagem de CVE). Nunca commitar cópia deste arquivo em");
-  lines.push("> repositório público.");
+  lines.push("> Gerado automaticamente a partir do checkout real de `morpheus-beta` — não editar à");
+  lines.push("> mão, rodar `generate-component-inventory.mjs` de novo sempre que precisar reavaliar");
+  lines.push("> (upgrade/downgrade, janela de manutenção, checagem de CVE). Repositório público:");
+  lines.push("> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas — usar como");
+  lines.push("> insumo de decisão, não como segredo.");
   lines.push("");
   lines.push(`Gerado em: ${generatedAt}`);
   lines.push("");

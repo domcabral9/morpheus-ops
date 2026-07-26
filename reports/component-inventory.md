@@ -1,12 +1,12 @@
 # Inventário de componentes — Morpheus
 
-> Documento restrito. Gerado automaticamente a partir do checkout real de
-> `morpheus-beta` — não editar à mão, rodar `generate-component-inventory.mjs`
-> de novo sempre que precisar reavaliar (upgrade/downgrade, janela de
-> manutenção, checagem de CVE). Nunca commitar cópia deste arquivo em
-> repositório público.
+> Gerado automaticamente a partir do checkout real de `morpheus-beta` — não editar à
+> mão, rodar `generate-component-inventory.mjs` de novo sempre que precisar reavaliar
+> (upgrade/downgrade, janela de manutenção, checagem de CVE). Repositório público:
+> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas — usar como
+> insumo de decisão, não como segredo.
 
-Gerado em: 2026-07-24T19:56:14.299Z
+Gerado em: 2026-07-26T16:41:00.515Z
 
 ## Plataforma/runtime
 
@@ -149,7 +149,7 @@ Gerado em: 2026-07-24T19:56:14.299Z
 | `tailwindcss` | 4.3.3 | dev |
 | `tw-animate-css` | 1.4.0 | prod |
 | `typescript` | 5.9.3 | dev |
-| `zod` | 4.4.3 | prod |
+| `zod` | 4.0.17 | prod |
 
 ## Dependências — `@morpheus/config`
 
