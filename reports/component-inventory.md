@@ -1,12 +1,12 @@
-# Inventário de componentes — Morpheus
+# Inventário de componentes: Morpheus
 
-> Gerado automaticamente a partir do checkout real de `morpheus-beta` — não editar à
+> Gerado automaticamente a partir do checkout real de `morpheus-beta`: não editar à
 > mão, rodar `generate-component-inventory.mjs` de novo sempre que precisar reavaliar
 > (upgrade/downgrade, janela de manutenção, checagem de CVE). Repositório público:
-> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas — usar como
+> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas; usar como
 > insumo de decisão, não como segredo.
 
-Gerado em: 2026-08-12T19:05:59.550Z
+Gerado em: 2026-08-13T12:57:51.586Z
 
 ## Plataforma/runtime
 
@@ -29,14 +29,14 @@ Gerado em: 2026-08-12T19:05:59.550Z
 | postgres | `postgres:16-alpine` | docker-compose.yml |
 | postgres | `postgres:16-alpine` | docker-compose.dev.yml |
 
-## Dependências — `morpheus-beta`
+## Dependências: `morpheus-beta`
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|
 | `turbo` | 2.10.7 | dev |
 | `typescript` | 5.9.3 | dev |
 
-## Dependências — `@morpheus/api`
+## Dependências: `@morpheus/api`
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|
@@ -112,7 +112,7 @@ Gerado em: 2026-08-12T19:05:59.550Z
 | `typescript-eslint` | 8.65.0 | dev |
 | `zod` | 4.4.3 | prod |
 
-## Dependências — `@morpheus/web`
+## Dependências: `@morpheus/web`
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|
@@ -151,11 +151,11 @@ Gerado em: 2026-08-12T19:05:59.550Z
 | `typescript` | 5.9.3 | dev |
 | `zod` | 4.4.3 | prod |
 
-## Dependências — `@morpheus/config`
+## Dependências: `@morpheus/config`
 
 _Nenhuma dependência externa._
 
-## Dependências — `@morpheus/database`
+## Dependências: `@morpheus/database`
 
 | Pacote | Versão resolvida | Tipo |
 |---|---|---|

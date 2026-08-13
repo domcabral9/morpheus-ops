@@ -114,12 +114,12 @@ function collectPlatformVersions(rootPkg) {
 // --- Renderização em Markdown ---
 function renderMarkdown({ workspaces, dockerImages, composeServices, platform, generatedAt }) {
   const lines = [];
-  lines.push("# Inventário de componentes — Morpheus");
+  lines.push("# Inventário de componentes: Morpheus");
   lines.push("");
-  lines.push("> Gerado automaticamente a partir do checkout real de `morpheus-beta` — não editar à");
+  lines.push("> Gerado automaticamente a partir do checkout real de `morpheus-beta`: não editar à");
   lines.push("> mão, rodar `generate-component-inventory.mjs` de novo sempre que precisar reavaliar");
   lines.push("> (upgrade/downgrade, janela de manutenção, checagem de CVE). Repositório público:");
-  lines.push("> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas — usar como");
+  lines.push("> lista versões exatas em uso, o que facilita a busca por CVEs conhecidas; usar como");
   lines.push("> insumo de decisão, não como segredo.");
   lines.push("");
   lines.push(`Gerado em: ${generatedAt}`);
@@ -153,7 +153,7 @@ function renderMarkdown({ workspaces, dockerImages, composeServices, platform, g
   lines.push("");
 
   for (const ws of workspaces) {
-    lines.push(`## Dependências — \`${ws.name}\``);
+    lines.push(`## Dependências: \`${ws.name}\``);
     lines.push("");
     if (ws.deps.length === 0) {
       lines.push("_Nenhuma dependência externa._");

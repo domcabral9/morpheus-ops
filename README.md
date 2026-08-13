@@ -1,19 +1,19 @@
 # morpheus-ops
 
-Repositório de documentação operacional/segurança do [morpheus-beta](https://github.com/domcabral9/morpheus-beta) — principalmente o inventário completo de componentes/versões usados para operar o sistema.
+Repositório de documentação operacional/segurança do [morpheus-beta](https://github.com/domcabral9/morpheus-beta): principalmente o inventário completo de componentes/versões usados para operar o sistema.
 
 ## Por quê um repo separado
 
-Um mapeamento detalhado de versões exatas de cada dependência, imagem Docker e serviço de infraestrutura não tem relação direta com o código/produto do `morpheus-beta` — mantê-lo num repo à parte facilita achar e manter esse tipo de documentação sem misturar com o desenvolvimento da aplicação.
+Um mapeamento detalhado de versões exatas de cada dependência, imagem Docker e serviço de infraestrutura não tem relação direta com o código/produto do `morpheus-beta`; mantê-lo num repo à parte facilita achar e manter esse tipo de documentação sem misturar com o desenvolvimento da aplicação.
 
 > **Nota:** este repositório é público. O inventário abaixo lista versões exatas de cada
-> dependência/imagem em uso, o que facilita a busca por CVEs conhecidas contra o stack — tenha
+> dependência/imagem em uso, o que facilita a busca por CVEs conhecidas contra o stack; tenha
 > isso em mente antes de usá-lo como fonte para decisões de segurança sem cruzar com o estado
 > real (versões mudam a cada `pnpm install`/deploy).
 
 ## Inventário de componentes
 
-`reports/component-inventory.md` é gerado automaticamente — nunca editado à mão. Cobre:
+`reports/component-inventory.md` é gerado automaticamente: nunca editado à mão. Cobre:
 
 - Runtime/plataforma (Node, pnpm)
 - Imagens Docker base (todas as stages dos Dockerfiles)
@@ -25,14 +25,14 @@ Um mapeamento detalhado de versões exatas de cada dependência, imagem Docker e
 Requer um checkout local de `morpheus-beta` com `pnpm install` já rodado (o script lê versões resolvidas via `pnpm -r list`).
 
 ```bash
-# a partir da raiz deste repo — usa ../morpheus-beta por padrão
+# a partir da raiz deste repo, usa ../morpheus-beta por padrão
 node scripts/generate-component-inventory.mjs
 
 # ou apontando pra outro caminho
 node scripts/generate-component-inventory.mjs /caminho/pro/morpheus-beta
 ```
 
-Rodar de novo sempre antes de pedir uma avaliação de upgrade/downgrade ou definir uma janela de manutenção — o documento reflete o estado do checkout no momento em que foi gerado, não se atualiza sozinho.
+Rodar de novo sempre antes de pedir uma avaliação de upgrade/downgrade ou definir uma janela de manutenção: o documento reflete o estado do checkout no momento em que foi gerado, não se atualiza sozinho.
 
 ## Uso pretendido
 
@@ -40,4 +40,4 @@ Com o inventário atualizado, é possível pedir uma avaliação (upgrades/downg
 
 ## Log de revisão de vulnerabilidades
 
-`reports/vulnerability-log.md` — diferente do inventário, é **mantido à mão**, um bloco por janela semanal de revisão dos alertas do Dependabot: o que foi encontrado, como foi classificado por risco, o que foi mesclado e o que ficou para a próxima janela. O processo (fluxograma, camadas de risco, válvula de escape para `critical`) está documentado em [`docs/security.md`](https://github.com/domcabral9/morpheus-beta/blob/main/docs/security.md), no repositório `morpheus-beta`.
+`reports/vulnerability-log.md`, diferente do inventário, é **mantido à mão**, um bloco por janela semanal de revisão dos alertas do Dependabot: o que foi encontrado, como foi classificado por risco, o que foi mesclado e o que ficou para a próxima janela. O processo (fluxograma, camadas de risco, válvula de escape para `critical`) está documentado em [`docs/security.md`](https://github.com/domcabral9/morpheus-beta/blob/main/docs/security.md), no repositório `morpheus-beta`.
